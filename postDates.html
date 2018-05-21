@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>D3 Bar Chart Example</title>
+    <!-- <script src="./script/d3.js"></script> -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+    <script src="./script/barchart.js"></script>
+</head>
+
+<style>
+    #bar {
+        margin: 0 auto;
+        width: 1200px;
+    }
+</style>
+
+<body>
+    <section id="bar">
+        <barchart></barchart>
+    </section>
+    <script>
+        getTimes("https://gist.githubusercontent.com/SQLMD/98539c0f69d6d694273973070aad590a/raw/e65cec648cd910224601a9650805bcf971a596b1/your_posts_sample.json", 0)
+    </script>
+</body>
+
+</html>

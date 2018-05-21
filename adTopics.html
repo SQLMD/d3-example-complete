@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Facebook Topics</title>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+    <script src="./script/topics.js"></script>
+</head>
+
+<style>
+    main {
+        display: flex;
+        justify-content: flex-start;
+        flex-flow: wrap;
+    }
+
+    .topic {
+        border: blue 1px solid;
+        border-radius: 15px;
+        padding: 5px;
+        margin: 10px;
+    }
+</style>
+
+<body>
+    <section id="bar">
+        <main>
+        </main>
+    </section>
+    <script>
+        showTopics("https://gist.githubusercontent.com/SQLMD/9936555bce2145af08ea3a7da3410581/raw/27ec32299ef125f06c797a9cece9e393cc77a6e2/topics.json") </script>
+</body>
+
+</html>
