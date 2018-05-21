@@ -13,6 +13,8 @@ Three examples of using D3 with facebook data.
 
 After forking and cloning the repository you can open each html file up directly in a browser and see the examples working.
 
+![Browser Image](./images/browser.png)
+
 Because d3 uses the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) which uses [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) serving local files is blocked - for good reason, but it can be annoying.
 
 The workaround for these examples is to use [Github Gist](https://gist.github.com/). The data for all of these examples is pubic, but not published
