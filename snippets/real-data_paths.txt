@@ -1,2 +1,0 @@
-getTimes("https://gist.githubusercontent.com/SQLMD/b51d9e8936a14b857af09cb29afd671b/raw/e76812c60583c337f66b1497d517aec78be47358/your_posts.json", 5)
-getIPs("https://gist.githubusercontent.com/SQLMD/2ba0bb591ddef36efbed91dfd8c305a2/raw/2fbebddf7e47ba62e180e4f5da4bf80c41277bb4/account_actiity.json", 10)
