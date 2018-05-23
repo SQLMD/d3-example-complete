@@ -1,7 +1,7 @@
 const showTopics = async filePath => {
-  const importedTopicFile = await d3.json(filePath);
+  const importedAdInterests = await d3.json(filePath);
 
-  const topics = importedTopicFile.topics;
+  const topics = importedAdInterests.topics;
 
   d3
     .select("main")
