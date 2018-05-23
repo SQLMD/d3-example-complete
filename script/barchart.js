@@ -81,11 +81,11 @@ const getTimes = async (filePath, minValue) => {
     .enter()
     .append("text")
     .text(d => `${d.id} - ${d.value}`)
-    .attr("font-size", 12 * scale(d.value - 10) / 100)
+    .attr("font-size", w / dates.length / 6 > 8 ? w / dates.length / 6 : 8)
     .attr("fill", "white")
     .attr("transform", (d, i) => {
       const x = i * (w / dates.length) + (w / dates.length - 8) / 2;
-      const y = h - scale(d.value) + 20;
+      const y = h - scale(d.value) + 10;
       return "translate(" + x + "," + y + ") rotate(90)";
     });
 };
