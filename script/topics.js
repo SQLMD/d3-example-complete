@@ -7,6 +7,7 @@ const showTopics = async filePath => {
     .select("main")
     .selectAll("div")
     .data(topics)
+    .text(topic => topic)
     .enter()
     .append("div")
     .text(topic => topic)
